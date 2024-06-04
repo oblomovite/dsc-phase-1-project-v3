@@ -39,10 +39,10 @@ The presentation can be found [here](flatiron-phase-1-project.pdf).
 
 ## Tableau Dashboard
 
-The Tableau dashboard can be found [here](dsc-phase-1-project-v3.twb).
+The complete Tableau worksbook can be found [here](dsc-phase-1-project-v3.twb).
 
 Examples of the dashboard are here:
 
-- ![Fatal Injuries over the years](images/fatal_injuries_years.png)
+- ![Fatal Injuries over the years](images/fatal_injuries_years_dashboard.png)
 - ![Safest Engine Types](images/engine_types_dashboard.png)
 - ![Safest Inudstry](images/PoF_dashboard.png)
