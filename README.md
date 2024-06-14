@@ -2,16 +2,26 @@
 
 ## Summary
 
+### Data
+
+The [raw dataset](./data/Aviation_Data.csv) and the derivative [sanitized_dataset](./data/Aviation_Data_Cleaned.csv) are sourced from Kaggle. It is an aggregated report containing information about Incidents and Accidents of various Aircraft.
+
 ### Business Problem
 
-Determine lowest risk aviation sectors for company to invest in.
+Determine lowest risk aviation sectors for a company to invest in.
 
-### Project Outline
+### Methodology
 
-1. Import data from csv file
-2. Clean data
-3. Feature engineering
-4. Data analysis
+- Perform EDA to discover any macro level trends
+- Calculate risk using a ratio of Fatal Injuries to total injuries
+- Apply this calculation to Engine Types and Purpose of Flight
+- Create Visualizations to aid conclusions & findings
+
+### Solution & Findings
+
+- Fatal Injuries have generally increased across all airplane-based flights
+- Reciprocating and Turbofan are the safest engine types
+- Banner Tow, Aerial Application, and Instructional are the safest purposes of flight
 
 ## Running the Notebook
 
@@ -46,3 +56,16 @@ Examples of the dashboard are here:
 - ![Fatal Injuries over the years](images/fatal_injuries_years_dashboard.png)
 - ![Safest Engine Types](images/engine_types_dashboard.png)
 - ![Safest Inudstry](images/PoF_dashboard.png)
+
+## Project Structure
+
+```markdown
+├── README.md
+├── requirements.txt
+├── dsc-phase-1-project-v3.twb
+├── flatiron-phase-1-project.pdf
+└── images
+├── fatal_injuries_years_dashboard.png
+├── engine_types_dashboard.png
+└── PoF_dashboard.png
+```
